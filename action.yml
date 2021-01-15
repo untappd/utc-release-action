@@ -4,7 +4,7 @@ author: "eng-utc@untappd.com"
 
 inputs:
   tag_name:
-    description: "Tag Name, defaults to YYYY.MM.DD.hhmmss"
+    description: "Tag Name, defaults to YYYY.MM.DD.hhmmss UTC"
   github_token:
     required: true
 
