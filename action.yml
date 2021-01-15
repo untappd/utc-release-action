@@ -1,0 +1,17 @@
+name: "Release"
+description: "Tag & Push to Production"
+author: "eng-utc@untappd.com"
+
+inputs:
+  tag_name:
+    description: "Tag Name, defaults to YYYY.MM.DD.hhmmss"
+  github_token:
+    required: true
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "upload-cloud"
+  color: "yellow"
