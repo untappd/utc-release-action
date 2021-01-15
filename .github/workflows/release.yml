@@ -1,4 +1,4 @@
-name: 'Weekly Release'
+name: 'Release'
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - master
   workflow_dispatch:
 jobs:
-  weekly-merge:
+  merge-to-prod:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
