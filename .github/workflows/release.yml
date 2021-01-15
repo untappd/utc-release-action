@@ -9,9 +9,6 @@ jobs:
   merge-to-prod:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        with:
-          ref: master
       - uses: untappd/utc-release-action@master
         name: Tag & Push to Production
         with:
