@@ -1,7 +1,7 @@
 {
   "name": "action-release",
   "version": "1.0.0",
-  "description": "Tag and release from master to production using date as tag",
+  "description": "Tag and create release from master to production using date as tag. Creates a PR to move the changes to production.",
   "main": "lib/main.js",
   "directories": {
     "lib": "lib"

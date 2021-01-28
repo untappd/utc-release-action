@@ -5,7 +5,9 @@ author: "eng-utc@untappd.com"
 inputs:
   tag_name:
     description: "Tag Name, defaults to YYYY.MM.DD.hhmmss UTC"
+    required: false
   github_token:
+    description: "GH token for performing actions against the repo"
     required: true
 
 runs:
