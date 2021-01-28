@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: untappd/utc-release-action@master
-        name: Tag & Push Rebase to Production
+        name: Tag & Create PR to Merge into Production
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
